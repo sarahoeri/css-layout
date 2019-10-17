@@ -8,6 +8,8 @@ body {
 img {
     max-width: 100%;
     display: block;
+    float:left;
+    padding: 5px 15px 15px 5px; 
 }
 
 .logo {
@@ -15,6 +17,7 @@ img {
     padding: 50px 20px;
     margin: 0 auto;
     max-width: 980px;
+    display:grid;
 }
 
 .grid {
@@ -26,6 +29,9 @@ img {
 nav {
     background-color: #000;
     padding: 0.5em;
+    position:fixed;
+    top: 0;
+    width: 100%;
 }
 
 nav ul {
@@ -49,3 +55,25 @@ nav a {
 .feature {
     width: 200px;
 }
+nav ul{
+    display:flex;
+    justify-content:space-between;
+}
+.grid {
+    display:flex;
+}
+
+.photos{
+    display:grid;
+    grid-template-columns:120px 120px;
+    grid-column-gap:1px;
+    grid-template-rows:120px 120px;
+    grid-row-gap:1px;
+}
+.logo{
+    padding:60px 150px;
+}
+
+
+    
+
